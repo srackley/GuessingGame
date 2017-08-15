@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('binary.jpg');
+}
+
+html {
+  box-sizing: border-box;
+}
+
+#app {
+  width: 60%;
+  margin: 50px auto;
+  background-color: rgba(256, 256, 256, 0.5);
+
+}
+
+.center {
+  text-align: center;
+}
+
+.btn {
+  background-color: lightgrey;
+  border-radius: 10%;
+  padding: 5px;
+  border-style: solid;
+}
+
+.left {
+  text-align: center;
+  width: 33%;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+.guess {
+  display: inline;
+  font-size: 60px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: grey;
+  padding: 0 25px;
+  border-radius: 10%;
+  background-color: white;
+}
+input::placeholder {
+  color: lightgrey;
+}
+
+img {
+    display: inline;
+    width: 200px;
+    height: 50px;
+}
+
+#footer {
+    width: 100%;
+    border-top: solid 2px red;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+#player-input {
+  margin-left: auto;
+  margin-right: auto;
+  height: 160px;
+  width: 160px;
+  font-size: 60px;
+}
+
+#go {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 110px;
+  left: 110px;
+  background-color: limegreen;
+  color: white;
+  border-style: none;
+  }
+
+#go:hover {
+
+}
+
+#input-parent {
+  position: relative;
+  margin: 5% auto 50px;
+  width: 160px;
+}
