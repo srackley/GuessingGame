@@ -80,7 +80,7 @@ img {
   font-size: 60px;
 }
 
-#submit {
+#go {
   height: 60px;
   width: 60px;
   position: absolute;
@@ -90,10 +90,6 @@ img {
   color: white;
   border-style: none;
   }
-
-#submit:hover {
-
-}
 
 #input-parent {
   position: relative;

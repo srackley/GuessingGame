@@ -75,7 +75,7 @@ Game.prototype.provideHint = function(){
 
 $(document).ready(function() {
 
-          $("#submit").click(function(e) {
+          $("#go").click(function(e) {
              console.log('Submit button has been clicked')
           })
 
